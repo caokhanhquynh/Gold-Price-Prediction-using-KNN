@@ -26,7 +26,7 @@ This project fetches historical gold price data from a website, preprocesses it,
 
 2.  **Run the script `gold_price_prediction.py`**:
     ```bash
-    knn.py
+    python knn.py
     ```
 
 ## Description
