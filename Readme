@@ -1,0 +1,41 @@
+Gold Price Prediction using KNN
+
+This project fetches historical gold price data from a website, preprocesses it, trains a K-Nearest Neighbors (KNN) regression model, and then plots the actual test prices against the predicted prices.
+
+Installation
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your_username/gold-price-prediction.git
+Install the required dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+
+Run the script gold_price_prediction.py:
+
+bash
+Copy code
+python gold_price_prediction.py
+View the plot generated in the output directory.
+
+Description
+
+gold_price_prediction.py: Python script that fetches historical gold price data from a website, preprocesses it, trains a KNN regression model, and plots the results.
+requirements.txt: File containing the required Python packages for the project.
+output/: Directory containing the generated plot.
+References
+
+scikit-learn Documentation
+matplotlib Documentation
+Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
