@@ -13,7 +13,7 @@ This project fetches historical gold price data from a website, preprocesses it,
 2. **Install the required dependencies**:
 
     ```bash
-    pip install -r requirements.txt
+    pip install numpy pandas scikit-learn matplotlib requests beautifulsoup4
     ```
 
 ## Usage
@@ -24,23 +24,19 @@ This project fetches historical gold price data from a website, preprocesses it,
     python gold_price_prediction.py
     ```
 
-2. **View the plot generated in the `output` directory**.
+2.  **Run the script `gold_price_prediction.py`**:
+    ```bash
+    knn.py
+    ```
 
 ## Description
 
-- `gold_price_prediction.py`: Python script that fetches historical gold price data from a website, preprocesses it, trains a KNN regression model, and plots the results.
-- `requirements.txt`: File containing the required Python packages for the project.
-- `output/`: Directory containing the generated plot.
+- `gold_price_prediction.py`: Python script that extracts real-time price data from https://www.investing.com/commodities/gold-historical-data, preprocesses it, trains a KNN regression model, and plots the results.
+- `knn.py`: Python script that takes price data since 1978 to 2023 from https://www.kaggle.com/datasets/rizkykiky/gold-price-dataset?resource=download&select=Daily.csv, preprocesses it, trains a KNN regression model, and plots the results.
 
 ## References
 
 - [scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 - [matplotlib Documentation](https://matplotlib.org/stable/contents.html)
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- [Real-Time Gold Prices](https://www.investing.com/commodities/gold-historical-data)
+- [Gold Prices from 1978 to 2023](https://www.kaggle.com/datasets/rizkykiky/gold-price-dataset?resource=download&select=Daily.csv)
